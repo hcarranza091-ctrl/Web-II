@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio de Heydi Carranza</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="hero-section">
+        <div class="hero-content">
+            <img src="fotito.jpeg" alt="Fotografía del Diseñador" class="profile-photo">
+            <h1>Heydi Carranza</h1>
+            <p class="tagline">“La dificultad no es el límite, es la razón por la que hoy creo con más fuerza.”</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="about">
+            <h2>Acerca de Mí</h2>
+            <p>Soy Heydi Carranza, diseñadora gráfica en formación. Para mí, el diseño es más que estética: es una forma de transmitir pensamientos, emociones e ideas que muchas veces no se dicen en voz alta. Me gusta trabajar con intención, cuidar los detalles y lograr que cada proyecto refleje algo verdadero, algo mío.</p>
+        </section>
+
+        <section id="portfolio">
+            <h2>Portafolio</h2>
+            <div class="gallery">
+                <div class="portfolio-item">
+                    <img src="Arte.jpg" alt="Descripción del Proyecto 1">
+                    <div class="overlay">
+                        <h3>Proyecto 1</h3>
+                        <p>Este anuncio promociona un shampoo con ingredientes naturales, destacando su conexión con la naturaleza mediante un fondo paisajístico y flores de lavanda. La imagen busca transmitir frescura, pureza y el cuidado delicado que ofrece el producto, apelando a un público que prefiere opciones orgánicas y saludables para el cabello.</p>
+                    </div>
+                </div>
+                <div class="portfolio-item">
+                    <img src="Propuesta 3.jpg" alt="Descripción del Proyecto 2">
+                    <div class="overlay">
+                        <h3>Proyecto 2</h3>
+                        <p>Este anuncio de bebidas naturales utiliza un fondo azul que transmite tranquilidad y frescura. Destacan dos botellas de producto acompañadas de plantas en la base, reforzando su origen natural. El agua que emerge de las botellas simboliza hidratación y pureza, invitando a consumir una bebida refrescante y saludable. </p>
+                    </div>
+                </div>
+                </div>
+        </section>
+
+        <section id="contact">
+            <h2>Hablemos</h2>
+            <p>Si tienes un proyecto en mente o simplemente quieres saludar, envíame un mensaje.</p>
+            <form id="contactForm">
+                <div class="form-group">
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensaje:</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+            <div id="formStatus"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Heydi Carranza. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
