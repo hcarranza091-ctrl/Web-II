@@ -1,10 +1,10 @@
 /* Estilos generales */
 :root {
-    --primary-color: #460202;
-    --secondary-color: #969292;
-    --accent-color: #a0000B;
-    --background-color: #240101;
-    --font-color: #301c01;
+    --primary-color: #030303;
+    --secondary-color: #535252;
+    --accent-color: #3b3a3a;
+    --background-color: #090909;
+    --font-color: #0b0b0b1;
 }
 
 body {
@@ -170,7 +170,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:hover {
-    background: #3a0000;
+    background: #0b0b0b;
 }
 
 #formStatus {
@@ -191,4 +191,5 @@ button[type="submit"]:hover {
     .gallery {
         grid-template-columns: 1fr;
     }
+
 }
